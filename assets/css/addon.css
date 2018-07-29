@@ -1,0 +1,426 @@
+h3 {
+	margin: 0;
+}
+
+body {
+	background-color: #eaeaea;
+}
+
+footer {
+    width: 100%;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	padding: 15px 0;
+	margin-top: 20px;
+}
+
+.commentbubble{float: right;}
+.text-center,.text-left {margin:0px;}
+.positive_comment {
+	color: #5cb85c;
+}
+.negative_comment {
+	color: #d9534f;
+}
+.neutral_comment {
+	color: #428bca;
+}
+.breakword {  
+    word-wrap: break-word;  
+}
+blockquote {
+	padding: 10px 15px;
+	font-size: 12px;
+	margin: 0 0 5px !important;
+}
+h2, .h2 {
+	font-size: 30px;
+}
+h2>.label { vertical-align: middle;font-size:10px; } 
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+
+.leaf {
+	margin: 0;
+	padding: 4px 0 0 12px;
+}
+
+.navbar-brand {
+	padding-right: 0;
+}
+
+.navbar {
+	margin: 0;
+	background-color: #000;
+}
+
+.navbar-removespace {
+	padding-left:0;
+}
+
+@media(max-width: 768px){
+	.navbar-removespace{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
+.navbar-main {
+	font-weight: bold; 
+	background: #2c2c2c;
+	font-size: 14px;
+}
+
+.navbar-sub {
+    background: #3f3f3f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3f3f3f, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3f3f3f, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3f3f3f, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3f3f3f, black); /* Standard syntax */
+}
+
+.lb-sm {
+  font-size: 12px;
+}
+
+.lb-md {
+  font-size: 15px;
+}
+
+.lb-lg {
+  font-size: 20px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel {
+	background-color: #000;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+}
+
+.carousel-caption {
+	-webkit-text-stroke: 1px black;
+}
+.carousel-caption h1, .carousel-caption h4 {
+	font-weight: bold;
+}
+
+.item {
+	height: 312px;
+}
+
+.sticky {
+	word-wrap: break-word;
+	background: white;
+	box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.25);
+}
+.sticky a {text-decoration: none;color:black;}
+.sticky a:hover {color: red;}
+
+.photo {
+	position: relative;
+	background-color: black;
+	height: 200px;
+	width: 100%;
+	box-shadow: inset 0 -3px 0 #5cb85c;
+}
+.photo-default {box-shadow: inset 0 -3px 0 lighten(@gray-base, 13.5%);}
+.photo-primary {
+	box-shadow: inset 0 -3px 0 #008cba;
+	background-image:url(../img/news/general.png);
+}
+.photo-success {
+	box-shadow: inset 0 -3px 0 #5cb85c;
+	background-image:url(../img/news/event.png);
+}
+.photo-info {box-shadow: inset 0 -3px 0 #5bc0de;}
+.photo-warning {
+	box-shadow: inset 0 -3px 0 #f0ad4e;
+	background-image:url(../img/news/patch.png);
+}
+.photo-danger {
+	box-shadow: inset 0 -3px 0 #d9534f;
+	background-image:url(../img/news/maintenance.png);
+}
+
+.photo-default-2 {box-shadow: inset 0 -3px 0 lighten(@gray-base, 13.5%);}
+.photo-primary-2 {
+	box-shadow: inset 0 -3px 0 #008cba;
+	background-image:url(../img/news/general_2.png);
+}
+.photo-success-2 {
+	box-shadow: inset 0 -3px 0 #5cb85c;
+	background-image:url(../img/news/event_2.png);
+}
+.photo-info-2 {box-shadow: inset 0 -3px 0 #5bc0de;}
+.photo-warning-2 {
+	box-shadow: inset 0 -3px 0 #f0ad4e;
+	background-image:url(../img/news/patch_2.png);
+}
+.photo-danger-2 {
+	box-shadow: inset 0 -3px 0 #d9534f;
+	background-image:url(../img/news/maintenance_2.png);
+}
+
+.photo-copper {
+	box-shadow: inset 0 -3px 0 #d4762d;
+	background-image:url(../img/packages/copper.png);
+}
+.photo-bronze {
+	box-shadow: inset 0 -3px 0 #ab684b;
+	background-image:url(../img/packages/bronze.png);
+}
+.photo-silver {
+	box-shadow: inset 0 -3px 0 #999999;
+	background-image:url(../img/packages/silver.png);
+}
+.photo-gold {
+	box-shadow: inset 0 -3px 0 #e4ba44;
+	background-image:url(../img/packages/gold.png);
+}
+.photo-platinum {
+	box-shadow: inset 0 -3px 0 #bcbcbc;
+	background-image:url(../img/packages/platinum.png);
+}
+.photo-diamond {
+	box-shadow: inset 0 -3px 0 #8acce4;
+	background-image:url(../img/packages/diamond.png);
+}
+
+
+.label-news {
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+}
+
+.opacity {
+	-khtml-opacity:.90; 
+	-moz-opacity:.90; 
+	-ms-filter:”alpha(opacity=90)”;
+	filter:alpha(opacity=90);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.9);
+	opacity:.90; 
+}
+
+.text {
+	font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+	padding: 9px 20px;
+}
+.text > h3, .intro, .intro2 {
+	font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.title {
+	margin-bottom: 7px;
+}
+
+.intro {
+	height: 63px;
+	max-height: 63px;
+}
+
+.intro2 {
+	height: 116px;
+	max-height: 116px;
+}
+
+.timestamp {
+	text-transform: uppercase;
+	font-family: "Titillium Web",arial,sans-serif;
+}
+
+.readmore {
+	text-transform: uppercase;
+	font-family: "Titillium Web",arial,sans-serif;
+}
+
+.stickies {
+	margin-bottom: 20px;
+}
+
+.box {
+	word-wrap: break-word;
+	background: white;
+	box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.25);
+	padding: 10px;
+}
+
+.g-recaptcha {
+	transform:scale(0.7);
+	-webkit-transform:scale(0.7);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+}
+
+.imgbox {
+	display: inline-block;
+	margin: 0 40px;
+}
+
+.imgbox p {
+	margin-top: 10px;
+	font-size: 15px;
+	color: black;
+	letter-spacing: 2px;
+}
+.imgbox a {text-decoration: none;}
+.imgbox p:hover {
+	color:red;
+}
+
+.scaling {
+    -webkit-animation-name: scalex;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -moz-animation-name: scale;
+    -moz-animation-duration:3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:ease-in-out;
+}
+    
+@-webkit-keyframes scalex{
+	from {-webkit-transform: scale(0.9);}
+	65% {-webkit-transform: scale(1.0);}
+	to {-webkit-transform: scale(0.9);}    
+}
+	
+@-moz-keyframes scale{
+	from {-moz-transform: scale(0.9);}
+	65% {-moz-transform: scale(1.0);}
+	to {-moz-transform: scale(0.9);}    
+}
+
+.table-rankings {
+	text-align: center;
+}
+.table-rankings th {
+	background-color: #008cba;
+	color: white;
+	text-align: inherit;
+}
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(0,140,186, 0.1);
+}
+
+.guild-name {
+	display: inline-block;
+	margin: 3px 0 0 3px;
+}
+
+.guild-img {
+	margin-bottom: 2px;
+}
+
+/*-- change navbar dropdown color --*/
+.navbar-default .navbar-nav .open .server-info>li>a,.navbar-default .navbar-nav .open .server-info {
+	background-color: white;
+	padding: 0 10px;
+}
+.navbar-default .navbar-nav .open .server-info h5 {
+	font-weight: 400;
+}
+
+.cp {
+	margin-left: 8px;
+	min-width: 100px;
+	width: 100px;
+}
+
+.istatus {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.js-notice {
+	text-align: center;
+	background: white;
+	margin: 150px 170px;
+	padding: 90px 0;
+	box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.25);
+}
+
+.info {
+	background: white;
+	box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.25);
+	list-style-type: square;
+	padding: 40px 50px;
+	margin-bottom: 20px;
+}
+.info ul {
+	list-style-type: square;
+}
+
+.vertical-align-text {
+	height: 100%;
+	line-height: 150%; /* <-- this is what you must define */
+	vertical-align: 1middle;
+}
+
+#banner {
+	margin-bottom: 20px;
+}
+
+.banner {
+	height: 312px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+	line-height: 30%;
+}
+.banner h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+	margin: 170px 0 0 0;
+	padding: 0;
+}
+.banner h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+	margin: 0;
+	padding: 0;
+}
+
+.news-avatar {
+	position: static;
+	top: 350px;
+	width: 600px;
+	left: 50%;
+	margin-left: 450px;
+	margin-top: -70px;
+	margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+	box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.25);
+}
+
+.image-div {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.news-page {
+	background: white;
+	box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.25);
+	padding: 20px;
+}
